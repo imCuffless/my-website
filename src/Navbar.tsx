@@ -1,11 +1,12 @@
 function Navbar() {
   return (
-    <nav className="bg-black text-white px-8 py-4 flex justify-between items-center">
-      <h2 className="text-xl font-bold">My Website</h2>
+    <nav className="border-b border-border px-8 py-4 flex justify-between items-center">
+      <h2 className="text-accent text-xl font-bold">Alexis</h2>
       <ul className="flex gap-6">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li className="text-muted cursor-pointer hover:text-white transition-colors">About</li>
+        <li className="text-muted cursor-pointer hover:text-white transition-colors">Skills</li>
+        <li className="text-muted cursor-pointer hover:text-white transition-colors">Journey</li>
+        <li className="text-muted cursor-pointer hover:text-white transition-colors">Contact</li>
       </ul>
     </nav>
   )
